@@ -185,7 +185,7 @@ img{
   }
 }
 
-/*ヘッダーカバー画像*/
+/* ヘッダーカバー画像 */
 .sub-cover {
   height: 400px;
   margin-bottom: 6rem;
@@ -227,7 +227,8 @@ img{
   padding-left: 2.5rem;
 }
 
-/* NEWS */
+/* NEWS
+---------------------------------------*/
 
 .cover-news {
   background-image: url(../images/cover-news-s.webp);
@@ -284,7 +285,7 @@ img{
 }
 .side-menu a {
   color: #432;
-  display: black;
+  display: block;
   padding: 1rem;
 }
 .side-menu a:hover {
