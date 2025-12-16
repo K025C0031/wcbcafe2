@@ -219,10 +219,10 @@ img{
 }
 .sideebar {
   width: 22%;
-  order: 1;
+  order: 3;
 }
 .ad {
-  order: 2;
+  order: 1;
 }
 .sidebar .heading-medium {
   line-height: 1;
