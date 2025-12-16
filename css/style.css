@@ -123,6 +123,12 @@ img{
 .about p {
   margin-bottom: 3rem;
 }
+/*NEWS
+-----------------------------*/
+.cover-news {
+  background-image: url(../images/cover-news-s.webp);
+}
+
 
 /* フッター
 --------------------------*/
@@ -186,6 +192,8 @@ img{
 }
 
 /* ヘッダーカバー画像 */
+
+
 .sub-cover {
   height: 400px;
   margin-bottom: 6rem;
@@ -195,9 +203,7 @@ img{
 .cover-home {
   background-image: url(../images/cover-home-l.webp);
 }
-.about {
-  margin: 4rem auto 0;
-}
+
 
 /* NEWS */
 .cover-news {
@@ -208,10 +214,15 @@ img{
   justify-content: space-between;
 }
 .post {
-  width: 70%;
+  width: 60%;
+  order: 2;
 }
 .sideebar {
   width: 22%;
+  order: 3;
+}
+.ad {
+  order: 1;
 }
 .sidebar .heading-medium {
   line-height: 1;
